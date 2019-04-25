@@ -5,7 +5,7 @@ Coding Challenge
 
 This is a simple command line script written in Node,js which logs the user into Signavio Process Manager. The credentials are passed as command line arguments.
 
-
+https://github.com/GowthamMohan/Signavio/blob/master/Signavio.png
 
 # APPLICATION DEPENDENCIES:
 
