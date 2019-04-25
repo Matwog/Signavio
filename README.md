@@ -13,10 +13,10 @@ This is a simple command line script written in Node,js which logs the user into
 Here’s a complete list of the packages we’ll use specifically for developing on the command line:
 
     • chalk	     -	This colorizes the output.
-    • Clear   	     -	This clears the terminal screen.
-    • Figlet	     -	This creates ASCII art from text.
-    • Inquirer    -	This creates interactive command-line user interface.
-    • Puppeteer -	Puppeteer is a Node library which provides a high-level API to control 			Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless 		by default, but can be configured to run full (non-headless) Chrome or 			Chromium.
+    • Clear   	 -	This clears the terminal screen.
+    • Figlet	 -	This creates ASCII art from text.
+    • Inquirer   -	This creates interactive command-line user interface.
+    • Puppeteer  -	Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.
 
 
 # GETTING STARTED:
@@ -39,7 +39,7 @@ Note: When you install Puppeteer, it downloads a recent version of Chromium (~17
 
 Once the dependencies are installed your package.json file should look like this.
 {
-  "name": "signavio",
+  "name": "signavio", 
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
