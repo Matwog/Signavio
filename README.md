@@ -36,6 +36,35 @@ npm i puppeteer
 
 Note: When you install Puppeteer, it downloads a recent version of Chromium (~170MB Mac, ~282MB Linux, ~280MB Win) that is guaranteed to work with the API. To skip the download, see Environment variables.
 
+Once the dependencies are installed your package.json file should look like this.
+{
+  "name": "signavio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.3.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "opn": "^6.0.0",
+    "touch": "^3.1.0"
+    }
+  },
+  "devDependencies": {
+    "puppeteer": "^1.14.0"
+  }
+}
+
+
 Copy the index.js and signavio.js file
 
 So now you must have the project directory containing node_modules folder, index.js, package.json,package-lock.json.
