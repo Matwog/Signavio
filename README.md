@@ -1,5 +1,4 @@
 # Signavio
-Coding Challenge
 
 # SIGNAVIO – COMMAND LINE SCRIPT
 
